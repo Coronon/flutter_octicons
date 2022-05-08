@@ -15,3 +15,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
+  yaml: ^3.1.0
+
+# The following section is specific to Flutter.
+flutter:
+  fonts:
+    - family: Octicons
+      fonts:
+        - asset: lib/fonts/octicons.ttf
