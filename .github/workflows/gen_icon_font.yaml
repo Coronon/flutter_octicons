@@ -1,0 +1,63 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Update Icons
+
+# Controls when the workflow will run
+on:
+  # Run once every night
+  schedule:
+    - cron: '0 0 * * *'
+
+  # Allow manually running the workflow
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🔔
+        uses: actions/checkout@v3
+
+      # Install dependencies
+      - name: Install Flutter 🎯
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+
+      - name: Install Node.js ✨
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies 📚
+        run: |
+          flutter pub get
+          npm install -g oslllo-svg-fixer fantasticon
+          sudo apt-get install -y texlive-binaries
+
+      - name: Update icons ⚙️
+        id: update_icons
+        run: dart run gen_icon_font.dart ${{ github.event_name }}
+
+      - name: Publish to pub.dev 🚀
+        if: contains(steps.update_icons.outputs.PUBLISH, 'YES')
+        run: | 
+          mkdir -p $HOME/.config/dart
+          cat <<EOF > $HOME/.config/dart/pub-credentials.json
+          {
+            "accessToken": "${{ secrets.PUB_CREDS_ACCESS_TOKEN }}",
+            "refreshToken": "${{ secrets.PUB_CREDS_REFRESH_TOKEN }}",
+            "idToken": "${{ secrets.PUB_CREDS_ID_TOKEN }}",
+            "tokenEndpoint": "https://accounts.google.com/o/oauth2/token",
+            "scopes": [ "openid", "https://www.googleapis.com/auth/userinfo.email" ],
+            "expiration": ${{ secrets.PUB_CREDS_EXPIRATION }}
+          }
+          EOF
+          dart pub publish -f
+
+      - name: Commit changes 📝
+        if: contains(steps.update_icons.outputs.PUBLISH, 'YES')
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: ${{ steps.update_icons.outputs.MSG }}
