@@ -148,11 +148,15 @@ void main(List<String> args) {
   // Generate Dart source code mappings
   String dartCode = '';
   for (final icon in mappings) {
-    final name = icon.key.toLowerCase().replaceAll('-', '_');
+    final rawName = icon.key.toLowerCase();
+    final name = rawName.replaceAll('-', '_');
+    final url = 'https://primer.github.io/octicons/$rawName';
     final codePoint = icon.value;
 
-    dartCode +=
-        '\nstatic const IconData $name = IconData($codePoint, fontFamily: _fontFamily, fontPackage: _fontPackage);';
+    dartCode += """\n/// Octicon icon named "$rawName".
+///
+/// $url
+static const IconData $name = IconData($codePoint, fontFamily: _fontFamily, fontPackage: _fontPackage);""";
   }
   dartCode = dartCode.trim();
 
@@ -238,6 +242,9 @@ library flutter_octicons;
 
 import 'package:flutter/widgets.dart';
 
+/// Identifiers for the supported Octicon icons.
+///
+/// Use with the [Icon] class to show specific icons.
 class OctIcons {
   // No constructor
   OctIcons._();
