@@ -149,14 +149,16 @@ void main(List<String> args) {
   String dartCode = '';
   for (final icon in mappings) {
     final rawName = icon.key.toLowerCase();
-    final name = rawName.replaceAll('-', '_');
+    final codeName = rawName.replaceAll('-', '_');
+    final textName = rawName.substring(0, rawName.lastIndexOf('-'));
+    final size = rawName.substring(rawName.lastIndexOf('-') + 1);
     final url = 'https://primer.github.io/octicons/$rawName';
     final codePoint = icon.value;
 
-    dartCode += """\n/// Octicon icon named "$rawName".
+    dartCode += """\n/// Octicon icon named "$textName" of size ${size}px.
 ///
 /// $url
-static const IconData $name = IconData($codePoint, fontFamily: _fontFamily, fontPackage: _fontPackage);""";
+static const IconData $codeName = IconData($codePoint, fontFamily: _fontFamily, fontPackage: _fontPackage);""";
   }
   dartCode = dartCode.trim();
 
@@ -249,7 +251,9 @@ class OctIcons {
   // No constructor
   OctIcons._();
 
+  /// Name of the font family - same as in pubspec.yaml
   static const _fontFamily = 'Octicons';
+  /// Name of this package so other projects can load the font
   static const _fontPackage = 'flutter_octicons';
 
   // Icons
