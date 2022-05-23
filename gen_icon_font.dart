@@ -87,7 +87,7 @@ void main(List<String> args) {
 
   assertProcess(copyFont, 'Could not copy font to lib!');
 
-  // Dump ttf font cmap & post table
+  // Dump ttf font cmap table
   // generated with https://manpages.ubuntu.com/manpages/trusty/man1/ttfdump.1.html
   final cmapDump = Process.runSync('ttfdump', [
     '-t',
@@ -97,17 +97,15 @@ void main(List<String> args) {
 
   assertProcess(cmapDump, 'Could not dump cmap table!');
 
-  final postDump = Process.runSync('ttfdump', [
-    '-t',
-    'post',
-    '$fontStorage/octicons.ttf',
-  ]);
-
-  assertProcess(postDump, 'Could not dump post table!');
-
-  // Parse mappings from table dumps: Name -> CodePoint (HEX)
+  // Parse mappings from table dump: Name -> CodePoint (HEX)
+  // We do not use the post table for this, as we discovered an issue with
+  // multiple icons having the exact same svg data fusing into one glyph entry.
+  // The multiple 'names' are present as CodePoints in the cmap table, but all
+  // resolve to one glyph ID in the post table and would therefore only be
+  // available under the one name listed in the post table.
+  // To avoid this, we use the icon file names themselves for this mapping as
+  // the font file is laid out alphabetically.
   String cmapTableString = (cmapDump.stdout as String);
-  final glyphIds = <String>{};
   final cmapTable = cmapTableString
       .substring(0, cmapTableString.indexOf('Segment 1:'))
       .substring(cmapTableString.indexOf('Segment 0:') + 10)
@@ -117,33 +115,24 @@ void main(List<String> args) {
       .replaceAll('Char', '')
       .replaceAll('Index', '')
       .split('\n')
-      .map((e) => e.split('->'))
-      .where((e) => glyphIds.add(e[1]));
+      .map((e) => e.split('->')[0])
+      .toList();
 
-  String postDumpString = (postDump.stdout as String);
-  final postTable = postDumpString
-      .substring(postDumpString.indexOf('Glyf'))
-      .trim()
-      .replaceAll('\t', '')
-      .replaceAll(' ', '')
-      .replaceAll('Glyf', '')
-      .replaceAll('PSName#', '')
-      .replaceAll("'", '')
-      .replaceAll(',', '->')
-      .split('\n')
-      .map((e) => e.split('->'))
-      .map((e) => [e[0], e[2]])
-      .skip(1);
-
-  final mappings = cmapTable
-      .map(
-        (c) => MapEntry(
-          postTable.firstWhere((e) => e[0] == c[1])[1],
-          c[0],
-        ),
-      )
+  final iconList = Directory(fixedIconsDir)
+      .listSync()
+      .map((e) => e.uri.pathSegments.last.replaceAll('.svg', ''))
       .toList()
-    ..sort((a, b) => a.key.compareTo(b.key));
+    ..sort((a, b) => a.compareTo(b));
+
+  assert(
+    cmapTable.length == iconList.length,
+    'cmap can not match icons as they have different lengths',
+  );
+
+  final mappings = List.generate(
+    cmapTable.length,
+    (i) => MapEntry(iconList[i], cmapTable[i]),
+  );
 
   // Generate Dart source code mappings
   String dartCode = '';
