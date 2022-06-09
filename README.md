@@ -1,8 +1,11 @@
 # flutter_octicons
 
-Use the [Octicon](https://github.com/primer/octicons) icons developed by [GitHub](https://github.com) and released under the [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) in [Flutter](https://flutter.dev).
+Use the [Octicon](https://github.com/primer/octicons) icons developed by
+[GitHub](https://github.com) and released under the [MIT license](https://github.com/primer/octicons/blob/main/LICENSE)
+in [Flutter](https://flutter.dev).
 
-flutter_octicons automatically updates itself every night to always stay up to date with the upstream [Octicons](https://github.com/primer/octicons) project.
+flutter_octicons automatically updates itself every night to always stay up to
+date with the upstream [Octicons](https://github.com/primer/octicons) project.
 
 ## Usage
 
@@ -12,9 +15,18 @@ import 'package:flutter_octicons/flutter_octicons.dart';
 Icon(Octicons.telescope_fill_24);
 ```
 
+Please note that **all icons included** in this package **are of the same size**
+when used as above (set to the default provided by [`IconTheme`](https://api.flutter.dev/flutter/widgets/IconTheme-class.html)),
+which is usually `24`. To correctly set the size for e.g. Octicons of size 16,
+please provide the following argument:
+
+```dart
+Icon(Octicons.telescope_fill_16, size: 16);
+```
+
 ## Octicons list
 
-For a full list of all octicons see [here](https://primer.github.io/octicons)
+For a full list of all Octicons see [here](https://primer.github.io/octicons)
 
 ## Rolling updates
 
