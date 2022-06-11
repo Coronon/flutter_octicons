@@ -12,7 +12,7 @@ date with the upstream [Octicons](https://github.com/primer/octicons) project.
 ```dart
 import 'package:flutter_octicons/flutter_octicons.dart';
 
-Icon(Octicons.telescope_fill_24);
+Icon(OctIcons.telescope_fill_24);
 ```
 
 Please note that **all icons included** in this package **are of the same size**
@@ -21,7 +21,7 @@ which is usually `24`. To correctly set the size for e.g. Octicons of size 16,
 please provide the following argument:
 
 ```dart
-Icon(Octicons.telescope_fill_16, size: 16);
+Icon(OctIcons.telescope_fill_16, size: 16);
 ```
 
 ## Octicons list
