@@ -1,3 +1,7 @@
+## 0.6.1
+
+- Embellish README
+
 ## 0.6.0
 
 - Fix inconsistent icon sizes (see README "Usage")
