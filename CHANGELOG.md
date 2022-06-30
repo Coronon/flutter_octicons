@@ -1,3 +1,7 @@
+## 0.7.0
+
+- Manual update
+
 ## 0.6.1
 
 - Embellish README
