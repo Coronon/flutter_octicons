@@ -1,3 +1,7 @@
+## 0.8.0
+
+- Update icons to upstream SHA '370acdc7602dfd64cfe2dc3477e35c3db05d8a61'
+
 ## 0.7.0
 
 - Manual update
