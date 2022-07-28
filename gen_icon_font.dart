@@ -137,12 +137,22 @@ static const IconData ${icon.codeName} = IconData(${icon.codePoint}, fontFamily:
       );
 
   pubspec.writeAsStringSync(
+    // The old order replace->subStr->addFonts introduced a bug where, when the
+    // length of the version changed, the 'pubspecContetnt.indexOf' call still
+    // used the old string, causing the content to be cut off at 'fonts|:' and
+    // thereby removing the ':' which then caused an invalid pubspec
     pubspecContetnt
+            // Remove old font declarations
+            .substring(
+              0,
+              pubspecContetnt.indexOf('fonts:') + 6,
+            )
+            // Set new version
             .replaceFirst(
               'version: $currentVersion',
               'version: $newVersion',
-            )
-            .substring(0, pubspecContetnt.indexOf('fonts:') + 6) +
+            ) +
+        // Add new font declarations
         '\n$fontsDeclaration',
   );
 
