@@ -1,3 +1,7 @@
+## 0.10.0
+
+- Update icons to upstream SHA '5aa257e4e258d5cacbe141b95ee53c84cab29482'
+
 ## 0.9.0
 
 - Update icons to upstream SHA 'f5b8544af5fb98a3a234a43caa371f2248e445df'
