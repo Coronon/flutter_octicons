@@ -427,6 +427,12 @@ class OctIcons {
   static const IconData checklist_24 =
       IconData(0xf121, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
+  /// Octicon icon named "chevron-down" of size 12px.
+  ///
+  /// https://primer.github.io/octicons/chevron-down-12
+  static const IconData chevron_down_12 =
+      IconData(0xf103, fontFamily: _fontFamily12, fontPackage: _fontPackage);
+
   /// Octicon icon named "chevron-down" of size 16px.
   ///
   /// https://primer.github.io/octicons/chevron-down-16
@@ -450,6 +456,12 @@ class OctIcons {
   /// https://primer.github.io/octicons/chevron-left-24
   static const IconData chevron_left_24 =
       IconData(0xf123, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+
+  /// Octicon icon named "chevron-right" of size 12px.
+  ///
+  /// https://primer.github.io/octicons/chevron-right-12
+  static const IconData chevron_right_12 =
+      IconData(0xf104, fontFamily: _fontFamily12, fontPackage: _fontPackage);
 
   /// Octicon icon named "chevron-right" of size 16px.
   ///
@@ -1931,7 +1943,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/no-entry-fill-12
   static const IconData no_entry_fill_12 =
-      IconData(0xf103, fontFamily: _fontFamily12, fontPackage: _fontPackage);
+      IconData(0xf105, fontFamily: _fontFamily12, fontPackage: _fontPackage);
 
   /// Octicon icon named "north-star" of size 16px.
   ///
@@ -3101,7 +3113,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/x-circle-fill-12
   static const IconData x_circle_fill_12 =
-      IconData(0xf104, fontFamily: _fontFamily12, fontPackage: _fontPackage);
+      IconData(0xf106, fontFamily: _fontFamily12, fontPackage: _fontPackage);
 
   /// Octicon icon named "x-circle-fill" of size 16px.
   ///
