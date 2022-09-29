@@ -34,6 +34,7 @@ jobs:
         run: |
           flutter pub get
           npm install -g oslllo-svg-fixer fantasticon
+          suso apt-get update
           sudo apt-get install -y texlive-binaries
 
       - name: Update icons ⚙️
