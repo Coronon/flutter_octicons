@@ -3396,4 +3396,28 @@ class OctIcons {
   /// https://primer.github.io/octicons/zap-24
   static const IconData zap_24 =
       IconData(0xf200, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+
+  /// Octicon icon named "zoom-in" of size 16px.
+  ///
+  /// https://primer.github.io/octicons/zoom-in-16
+  static const IconData zoom_in_16 =
+      IconData(0xf229, fontFamily: _fontFamily16, fontPackage: _fontPackage);
+
+  /// Octicon icon named "zoom-in" of size 24px.
+  ///
+  /// https://primer.github.io/octicons/zoom-in-24
+  static const IconData zoom_in_24 =
+      IconData(0xf201, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+
+  /// Octicon icon named "zoom-out" of size 16px.
+  ///
+  /// https://primer.github.io/octicons/zoom-out-16
+  static const IconData zoom_out_16 =
+      IconData(0xf22a, fontFamily: _fontFamily16, fontPackage: _fontPackage);
+
+  /// Octicon icon named "zoom-out" of size 24px.
+  ///
+  /// https://primer.github.io/octicons/zoom-out-24
+  static const IconData zoom_out_24 =
+      IconData(0xf202, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 }
