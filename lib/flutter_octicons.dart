@@ -1723,16 +1723,16 @@ class OctIcons {
   static const IconData issue_tracked_by_24 =
       IconData(0xf17d, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
-  /// Octicon icon named "issue-tracked-in" of size 16px.
+  /// Octicon icon named "issue-tracks" of size 16px.
   ///
-  /// https://primer.github.io/octicons/issue-tracked-in-16
-  static const IconData issue_tracked_in_16 =
+  /// https://primer.github.io/octicons/issue-tracks-16
+  static const IconData issue_tracks_16 =
       IconData(0xf197, fontFamily: _fontFamily16, fontPackage: _fontPackage);
 
-  /// Octicon icon named "issue-tracked-in" of size 24px.
+  /// Octicon icon named "issue-tracks" of size 24px.
   ///
-  /// https://primer.github.io/octicons/issue-tracked-in-24
-  static const IconData issue_tracked_in_24 =
+  /// https://primer.github.io/octicons/issue-tracks-24
+  static const IconData issue_tracks_24 =
       IconData(0xf17e, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "italic" of size 16px.
@@ -2707,6 +2707,12 @@ class OctIcons {
   static const IconData shield_slash_16 =
       IconData(0xf1ed, fontFamily: _fontFamily16, fontPackage: _fontPackage);
 
+  /// Octicon icon named "shield-slash" of size 24px.
+  ///
+  /// https://primer.github.io/octicons/shield-slash-24
+  static const IconData shield_slash_24 =
+      IconData(0xf1ca, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+
   /// Octicon icon named "shield-x" of size 16px.
   ///
   /// https://primer.github.io/octicons/shield-x-16
@@ -2717,7 +2723,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/shield-x-24
   static const IconData shield_x_24 =
-      IconData(0xf1ca, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1cb, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "sidebar-collapse" of size 16px.
   ///
@@ -2729,7 +2735,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/sidebar-collapse-24
   static const IconData sidebar_collapse_24 =
-      IconData(0xf1cb, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1cc, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "sidebar-expand" of size 16px.
   ///
@@ -2741,7 +2747,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/sidebar-expand-24
   static const IconData sidebar_expand_24 =
-      IconData(0xf1cc, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1cd, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "sign-in" of size 16px.
   ///
@@ -2753,7 +2759,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/sign-in-24
   static const IconData sign_in_24 =
-      IconData(0xf1cd, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1ce, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "sign-out" of size 16px.
   ///
@@ -2765,7 +2771,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/sign-out-24
   static const IconData sign_out_24 =
-      IconData(0xf1ce, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1cf, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "single-select" of size 16px.
   ///
@@ -2777,7 +2783,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/single-select-24
   static const IconData single_select_24 =
-      IconData(0xf1cf, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1d0, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "skip" of size 16px.
   ///
@@ -2789,7 +2795,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/skip-24
   static const IconData skip_24 =
-      IconData(0xf1d0, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1d1, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "skip-fill" of size 16px.
   ///
@@ -2801,7 +2807,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/skip-fill-24
   static const IconData skip_fill_24 =
-      IconData(0xf1d1, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1d2, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "sliders" of size 16px.
   ///
@@ -2819,7 +2825,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/smiley-24
   static const IconData smiley_24 =
-      IconData(0xf1d2, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1d3, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "sort-asc" of size 16px.
   ///
@@ -2831,7 +2837,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/sort-asc-24
   static const IconData sort_asc_24 =
-      IconData(0xf1d3, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1d4, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "sort-desc" of size 16px.
   ///
@@ -2843,7 +2849,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/sort-desc-24
   static const IconData sort_desc_24 =
-      IconData(0xf1d4, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1d5, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "sparkle-fill" of size 16px.
   ///
@@ -2861,7 +2867,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/sponsor-tiers-24
   static const IconData sponsor_tiers_24 =
-      IconData(0xf1d5, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1d6, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "square" of size 16px.
   ///
@@ -2873,7 +2879,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/square-24
   static const IconData square_24 =
-      IconData(0xf1d6, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1d7, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "square-fill" of size 16px.
   ///
@@ -2885,7 +2891,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/square-fill-24
   static const IconData square_fill_24 =
-      IconData(0xf1d7, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1d8, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "squirrel" of size 16px.
   ///
@@ -2897,7 +2903,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/squirrel-24
   static const IconData squirrel_24 =
-      IconData(0xf1d8, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1d9, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "stack" of size 16px.
   ///
@@ -2909,7 +2915,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/stack-24
   static const IconData stack_24 =
-      IconData(0xf1d9, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1da, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "star" of size 16px.
   ///
@@ -2921,7 +2927,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/star-24
   static const IconData star_24 =
-      IconData(0xf1da, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1db, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "star-fill" of size 16px.
   ///
@@ -2933,7 +2939,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/star-fill-24
   static const IconData star_fill_24 =
-      IconData(0xf1db, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1dc, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "stop" of size 16px.
   ///
@@ -2945,7 +2951,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/stop-24
   static const IconData stop_24 =
-      IconData(0xf1dc, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1dd, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "stopwatch" of size 16px.
   ///
@@ -2957,7 +2963,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/stopwatch-24
   static const IconData stopwatch_24 =
-      IconData(0xf1dd, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1de, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "strikethrough" of size 16px.
   ///
@@ -2969,7 +2975,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/strikethrough-24
   static const IconData strikethrough_24 =
-      IconData(0xf1de, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1df, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "sun" of size 16px.
   ///
@@ -2981,7 +2987,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/sun-24
   static const IconData sun_24 =
-      IconData(0xf1df, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1e0, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "sync" of size 16px.
   ///
@@ -2993,13 +2999,13 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/sync-24
   static const IconData sync_24 =
-      IconData(0xf1e0, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1e1, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "tab" of size 24px.
   ///
   /// https://primer.github.io/octicons/tab-24
   static const IconData tab_24 =
-      IconData(0xf1e1, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1e2, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "tab-external" of size 16px.
   ///
@@ -3017,7 +3023,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/table-24
   static const IconData table_24 =
-      IconData(0xf1e2, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1e3, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "tag" of size 16px.
   ///
@@ -3029,7 +3035,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/tag-24
   static const IconData tag_24 =
-      IconData(0xf1e3, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1e4, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "tasklist" of size 16px.
   ///
@@ -3041,7 +3047,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/tasklist-24
   static const IconData tasklist_24 =
-      IconData(0xf1e4, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1e5, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "telescope" of size 16px.
   ///
@@ -3053,7 +3059,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/telescope-24
   static const IconData telescope_24 =
-      IconData(0xf1e5, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1e6, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "telescope-fill" of size 16px.
   ///
@@ -3065,7 +3071,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/telescope-fill-24
   static const IconData telescope_fill_24 =
-      IconData(0xf1e6, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1e7, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "terminal" of size 16px.
   ///
@@ -3077,7 +3083,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/terminal-24
   static const IconData terminal_24 =
-      IconData(0xf1e7, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1e8, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "three-bars" of size 16px.
   ///
@@ -3095,7 +3101,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/thumbsdown-24
   static const IconData thumbsdown_24 =
-      IconData(0xf1e8, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1e9, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "thumbsup" of size 16px.
   ///
@@ -3107,7 +3113,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/thumbsup-24
   static const IconData thumbsup_24 =
-      IconData(0xf1e9, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1ea, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "tools" of size 16px.
   ///
@@ -3119,7 +3125,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/tools-24
   static const IconData tools_24 =
-      IconData(0xf1ea, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1eb, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "trash" of size 16px.
   ///
@@ -3131,7 +3137,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/trash-24
   static const IconData trash_24 =
-      IconData(0xf1eb, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1ec, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "triangle-down" of size 16px.
   ///
@@ -3143,7 +3149,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/triangle-down-24
   static const IconData triangle_down_24 =
-      IconData(0xf1ec, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1ed, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "triangle-left" of size 16px.
   ///
@@ -3155,7 +3161,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/triangle-left-24
   static const IconData triangle_left_24 =
-      IconData(0xf1ed, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1ee, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "triangle-right" of size 16px.
   ///
@@ -3167,7 +3173,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/triangle-right-24
   static const IconData triangle_right_24 =
-      IconData(0xf1ee, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1ef, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "triangle-up" of size 16px.
   ///
@@ -3179,7 +3185,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/triangle-up-24
   static const IconData triangle_up_24 =
-      IconData(0xf1ef, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1f0, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "trophy" of size 16px.
   ///
@@ -3191,7 +3197,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/trophy-24
   static const IconData trophy_24 =
-      IconData(0xf1f0, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1f1, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "typography" of size 16px.
   ///
@@ -3203,7 +3209,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/typography-24
   static const IconData typography_24 =
-      IconData(0xf1f1, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1f2, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "unfold" of size 16px.
   ///
@@ -3215,7 +3221,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/unfold-24
   static const IconData unfold_24 =
-      IconData(0xf1f2, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1f3, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "unlink" of size 16px.
   ///
@@ -3227,7 +3233,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/unlink-24
   static const IconData unlink_24 =
-      IconData(0xf1f3, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1f4, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "unlock" of size 16px.
   ///
@@ -3239,7 +3245,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/unlock-24
   static const IconData unlock_24 =
-      IconData(0xf1f4, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1f5, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "unmute" of size 16px.
   ///
@@ -3251,7 +3257,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/unmute-24
   static const IconData unmute_24 =
-      IconData(0xf1f5, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1f6, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "unread" of size 16px.
   ///
@@ -3263,7 +3269,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/unread-24
   static const IconData unread_24 =
-      IconData(0xf1f6, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1f7, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "unverified" of size 16px.
   ///
@@ -3275,7 +3281,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/unverified-24
   static const IconData unverified_24 =
-      IconData(0xf1f7, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1f8, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "upload" of size 16px.
   ///
@@ -3287,7 +3293,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/upload-24
   static const IconData upload_24 =
-      IconData(0xf1f8, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1f9, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "verified" of size 16px.
   ///
@@ -3299,7 +3305,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/verified-24
   static const IconData verified_24 =
-      IconData(0xf1f9, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1fa, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "versions" of size 16px.
   ///
@@ -3311,7 +3317,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/versions-24
   static const IconData versions_24 =
-      IconData(0xf1fa, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1fb, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "video" of size 16px.
   ///
@@ -3323,7 +3329,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/video-24
   static const IconData video_24 =
-      IconData(0xf1fb, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1fc, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "webhook" of size 16px.
   ///
@@ -3341,7 +3347,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/workflow-24
   static const IconData workflow_24 =
-      IconData(0xf1fc, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1fd, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "x" of size 16px.
   ///
@@ -3353,7 +3359,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/x-24
   static const IconData x_24 =
-      IconData(0xf1fd, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1fe, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "x-circle" of size 16px.
   ///
@@ -3365,7 +3371,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/x-circle-24
   static const IconData x_circle_24 =
-      IconData(0xf1fe, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf1ff, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "x-circle-fill" of size 12px.
   ///
@@ -3383,7 +3389,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/x-circle-fill-24
   static const IconData x_circle_fill_24 =
-      IconData(0xf1ff, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf200, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "zap" of size 16px.
   ///
@@ -3395,7 +3401,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/zap-24
   static const IconData zap_24 =
-      IconData(0xf200, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf201, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "zoom-in" of size 16px.
   ///
@@ -3407,7 +3413,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/zoom-in-24
   static const IconData zoom_in_24 =
-      IconData(0xf201, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf202, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
   /// Octicon icon named "zoom-out" of size 16px.
   ///
@@ -3419,5 +3425,5 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/zoom-out-24
   static const IconData zoom_out_24 =
-      IconData(0xf202, fontFamily: _fontFamily24, fontPackage: _fontPackage);
+      IconData(0xf203, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 }
