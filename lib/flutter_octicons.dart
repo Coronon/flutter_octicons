@@ -3409,6 +3409,12 @@ class OctIcons {
   static const IconData workflow_24 =
       IconData(0xf202, fontFamily: _fontFamily24, fontPackage: _fontPackage);
 
+  /// Octicon icon named "x" of size 12px.
+  ///
+  /// https://primer.github.io/octicons/x-12
+  static const IconData x_12 =
+      IconData(0xf107, fontFamily: _fontFamily12, fontPackage: _fontPackage);
+
   /// Octicon icon named "x" of size 16px.
   ///
   /// https://primer.github.io/octicons/x-16
@@ -3437,7 +3443,7 @@ class OctIcons {
   ///
   /// https://primer.github.io/octicons/x-circle-fill-12
   static const IconData x_circle_fill_12 =
-      IconData(0xf107, fontFamily: _fontFamily12, fontPackage: _fontPackage);
+      IconData(0xf108, fontFamily: _fontFamily12, fontPackage: _fontPackage);
 
   /// Octicon icon named "x-circle-fill" of size 16px.
   ///
