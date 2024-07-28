@@ -1,4 +1,11 @@
 // ignore_for_file: constant_identifier_names
+
+/// Easily integrate GitHub's Octicons in your own Flutter project
+/// 
+/// Access all icons through the [OctIcons] class:
+/// ```dart
+/// Icon(OctIcons.telescope_fill_16, size: 16)
+/// ```
 library flutter_octicons;
 
 import 'package:flutter/widgets.dart';
