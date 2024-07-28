@@ -13,6 +13,7 @@ const String outputDir = '$workDir/output';
 
 const String fontStorage = 'lib/fonts';
 const String sourceFilePath = 'lib/flutter_octicons.dart';
+const String exampleListFilePath = 'example/lib/octicons_list.dart';
 const String pubspecPath = 'pubspec.yaml';
 const String changeLogPath = 'CHANGELOG.md';
 const String octiconsLockPath = 'octicons.lock';
@@ -29,6 +30,7 @@ void main(List<String> args) {
 
   // Run was manually requested (also run when nothing changed upstream)
   final isManual = args.isNotEmpty && args[0] == 'workflow_dispatch';
+  final manualMessage = isManual ? args[1] : '';
   // Running with no changes upstream (slightly different behaviour)
   bool isOverride = false;
 
@@ -103,13 +105,29 @@ static const IconData ${icon.codeName} = IconData(${icon.codePoint}, fontFamily:
         .replaceFirst('// {INSERT_ICONS_HERE}', iconsCode),
   );
 
+  // Generate example project
+  String exampleIconListCode = '';
+  for (final icon in octicons) {
+    exampleIconListCode +=
+        """IconInfo(name: "${icon.rawName}", icon: OctIcons.${icon.codeName}, size: ${icon.size}),
+""";
+  }
+
+  final exampleListFile = File(exampleListFilePath);
+  exampleListFile.writeAsStringSync(
+    flutterExampleOcticonsListDartSource
+        .trim()
+        .replaceFirst("// {INSERT_ICONS_HERE}", exampleIconListCode),
+  );
+
   // Format Dart code
   final dartFormat = Process.runSync('dart', [
     'format',
     sourceFilePath,
+    exampleListFilePath,
   ]);
 
-  assertProcess(dartFormat, 'Could format Dart code!');
+  assertProcess(dartFormat, 'Could not format Dart code!');
 
   // Update pubspec.yaml version and fonts
   final pubspec = File(pubspecPath);
@@ -159,7 +177,7 @@ static const IconData ${icon.codeName} = IconData(${icon.codePoint}, fontFamily:
   // Append Changelog with details for run
   final changelog = File(changeLogPath);
   final changeMessage =
-      !isOverride ? "Update icons to upstream SHA '$newSha'" : 'Manual update';
+      !isOverride ? "Update icons to upstream SHA '$newSha'" : manualMessage;
   changelog.writeAsStringSync(
     '## $newVersion\n\n- ' +
         changeMessage +
@@ -257,7 +275,7 @@ List<Octicon> generateIconsOfSize(String size) {
   // resolve to one glyph ID in the post table and would therefore only be
   // available under the one name listed in the post table.
   // To avoid this, we use the icon file names themselves for this mapping as
-  // the font file is laid out alphabetically.
+  // the font file is laid out alphabetically (reversed).
   String cmapTableString = (cmapDump.stdout as String);
   final codePoints = cmapTableString
       .substring(0, cmapTableString.indexOf('Segment 1:'))
@@ -269,6 +287,8 @@ List<Octicon> generateIconsOfSize(String size) {
       .replaceAll('Index', '')
       .split('\n')
       .map((e) => e.split('->')[0])
+      .toList()
+      .reversed
       .toList();
 
   final rawNames = Directory(fixedDir)
@@ -321,6 +341,15 @@ class OctIcons {
   // Icons
   // {INSERT_ICONS_HERE}
 }
+""";
+
+const String flutterExampleOcticonsListDartSource = """
+import 'package:flutter_octicons/flutter_octicons.dart';
+import 'package:flutter_octicons_example/icon_info.dart';
+
+const List<IconInfo> octicons = [
+// {INSERT_ICONS_HERE}
+];
 """;
 
 /// Encapsulates information about a single Octicon

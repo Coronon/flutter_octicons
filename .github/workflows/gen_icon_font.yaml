@@ -10,6 +10,9 @@ on:
 
   # Allow manually running the workflow
   workflow_dispatch:
+    inputs:
+      message:
+        required: true
 
 jobs:
   update:
@@ -39,7 +42,7 @@ jobs:
 
       - name: Update icons ⚙️
         id: update_icons
-        run: dart run gen_icon_font.dart ${{ github.event_name }}
+        run: dart run gen_icon_font.dart ${{ github.event_name }} "${{ github.event.inputs.message }}"
 
       - name: Publish to pub.dev 🚀
         if: contains(steps.update_icons.outputs.PUBLISH, 'YES')
