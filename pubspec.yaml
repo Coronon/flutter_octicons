@@ -1,6 +1,6 @@
 name: flutter_octicons
 description: Easily integrate GitHub's Octicons in your own Flutter project.
-version: 1.44.0
+version: 1.45.0
 homepage: https://github.com/Coronon/flutter_octicons
 
 environment:

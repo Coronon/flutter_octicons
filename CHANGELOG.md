@@ -1,3 +1,7 @@
+## 1.45.0
+
+- Fix wrong (glyphs were reversed in the font files) and add example project
+
 ## 0.44.0
 
 - Update icons to upstream SHA '91c1e14161b7e94c98061c74af1e2b23c89c63aa'
