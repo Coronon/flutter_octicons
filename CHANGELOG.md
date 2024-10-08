@@ -1,3 +1,7 @@
+## 1.46.0
+
+- Update icons to upstream SHA '124912d71d9818173d75c997c219556326a88b9f'
+
 ## 1.45.0
 
 - Fix wrong (glyphs were reversed in the font files) and add example project
