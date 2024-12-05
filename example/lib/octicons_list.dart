@@ -745,6 +745,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "sort-desc-24", icon: OctIcons.sort_desc_24, size: 24),
   IconInfo(name: "sparkle-fill-16", icon: OctIcons.sparkle_fill_16, size: 16),
   IconInfo(name: "sparkle-fill-24", icon: OctIcons.sparkle_fill_24, size: 24),
+  IconInfo(name: "sparkles-fill-16", icon: OctIcons.sparkles_fill_16, size: 16),
+  IconInfo(name: "sparkles-fill-24", icon: OctIcons.sparkles_fill_24, size: 24),
   IconInfo(name: "sponsor-tiers-16", icon: OctIcons.sponsor_tiers_16, size: 16),
   IconInfo(name: "sponsor-tiers-24", icon: OctIcons.sponsor_tiers_24, size: 24),
   IconInfo(name: "square-16", icon: OctIcons.square_16, size: 16),
