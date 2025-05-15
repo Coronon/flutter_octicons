@@ -609,6 +609,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "passkey-fill-24", icon: OctIcons.passkey_fill_24, size: 24),
   IconInfo(name: "paste-16", icon: OctIcons.paste_16, size: 16),
   IconInfo(name: "paste-24", icon: OctIcons.paste_24, size: 24),
+  IconInfo(name: "pause-16", icon: OctIcons.pause_16, size: 16),
+  IconInfo(name: "pause-24", icon: OctIcons.pause_24, size: 24),
   IconInfo(name: "pencil-16", icon: OctIcons.pencil_16, size: 16),
   IconInfo(name: "pencil-24", icon: OctIcons.pencil_24, size: 24),
   IconInfo(name: "people-16", icon: OctIcons.people_16, size: 16),
