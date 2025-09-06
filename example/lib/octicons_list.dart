@@ -546,6 +546,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "markdown-24", icon: OctIcons.markdown_24, size: 24),
   IconInfo(name: "maximize-16", icon: OctIcons.maximize_16, size: 16),
   IconInfo(name: "maximize-24", icon: OctIcons.maximize_24, size: 24),
+  IconInfo(name: "mcp-16", icon: OctIcons.mcp_16, size: 16),
+  IconInfo(name: "mcp-24", icon: OctIcons.mcp_24, size: 24),
   IconInfo(name: "megaphone-16", icon: OctIcons.megaphone_16, size: 16),
   IconInfo(name: "megaphone-24", icon: OctIcons.megaphone_24, size: 24),
   IconInfo(name: "mention-16", icon: OctIcons.mention_16, size: 16),
