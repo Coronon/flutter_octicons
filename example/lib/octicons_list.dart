@@ -116,6 +116,8 @@ const List<IconInfo> octicons = [
       size: 24),
   IconInfo(name: "checkbox-16", icon: OctIcons.checkbox_16, size: 16),
   IconInfo(name: "checkbox-24", icon: OctIcons.checkbox_24, size: 24),
+  IconInfo(name: "checkbox-fill-16", icon: OctIcons.checkbox_fill_16, size: 16),
+  IconInfo(name: "checkbox-fill-24", icon: OctIcons.checkbox_fill_24, size: 24),
   IconInfo(name: "checklist-16", icon: OctIcons.checklist_16, size: 16),
   IconInfo(name: "checklist-24", icon: OctIcons.checklist_24, size: 24),
   IconInfo(name: "chevron-down-12", icon: OctIcons.chevron_down_12, size: 12),
