@@ -174,6 +174,8 @@ const List<IconInfo> octicons = [
       name: "command-palette-24", icon: OctIcons.command_palette_24, size: 24),
   IconInfo(name: "comment-16", icon: OctIcons.comment_16, size: 16),
   IconInfo(name: "comment-24", icon: OctIcons.comment_24, size: 24),
+  IconInfo(name: "comment-ai-16", icon: OctIcons.comment_ai_16, size: 16),
+  IconInfo(name: "comment-ai-24", icon: OctIcons.comment_ai_24, size: 24),
   IconInfo(
       name: "comment-discussion-16",
       icon: OctIcons.comment_discussion_16,
