@@ -476,6 +476,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "image-24", icon: OctIcons.image_24, size: 24),
   IconInfo(name: "inbox-16", icon: OctIcons.inbox_16, size: 16),
   IconInfo(name: "inbox-24", icon: OctIcons.inbox_24, size: 24),
+  IconInfo(name: "inbox-fill-16", icon: OctIcons.inbox_fill_16, size: 16),
+  IconInfo(name: "inbox-fill-24", icon: OctIcons.inbox_fill_24, size: 24),
   IconInfo(name: "infinity-16", icon: OctIcons.infinity_16, size: 16),
   IconInfo(name: "infinity-24", icon: OctIcons.infinity_24, size: 24),
   IconInfo(name: "info-16", icon: OctIcons.info_16, size: 16),
