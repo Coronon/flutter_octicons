@@ -448,6 +448,22 @@ const List<IconInfo> octicons = [
   IconInfo(name: "grabber-24", icon: OctIcons.grabber_24, size: 24),
   IconInfo(name: "graph-16", icon: OctIcons.graph_16, size: 16),
   IconInfo(name: "graph-24", icon: OctIcons.graph_24, size: 24),
+  IconInfo(
+      name: "graph-bar-horizontal-16",
+      icon: OctIcons.graph_bar_horizontal_16,
+      size: 16),
+  IconInfo(
+      name: "graph-bar-horizontal-24",
+      icon: OctIcons.graph_bar_horizontal_24,
+      size: 24),
+  IconInfo(
+      name: "graph-bar-vertical-16",
+      icon: OctIcons.graph_bar_vertical_16,
+      size: 16),
+  IconInfo(
+      name: "graph-bar-vertical-24",
+      icon: OctIcons.graph_bar_vertical_24,
+      size: 24),
   IconInfo(name: "hash-16", icon: OctIcons.hash_16, size: 16),
   IconInfo(name: "hash-24", icon: OctIcons.hash_24, size: 24),
   IconInfo(name: "heading-16", icon: OctIcons.heading_16, size: 16),
