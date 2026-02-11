@@ -69,6 +69,7 @@ const List<IconInfo> octicons = [
   IconInfo(name: "bold-24", icon: OctIcons.bold_24, size: 24),
   IconInfo(name: "book-16", icon: OctIcons.book_16, size: 16),
   IconInfo(name: "book-24", icon: OctIcons.book_24, size: 24),
+  IconInfo(name: "book-locked-16", icon: OctIcons.book_locked_16, size: 16),
   IconInfo(name: "bookmark-16", icon: OctIcons.bookmark_16, size: 16),
   IconInfo(name: "bookmark-24", icon: OctIcons.bookmark_24, size: 24),
   IconInfo(name: "bookmark-fill-24", icon: OctIcons.bookmark_fill_24, size: 24),
@@ -188,6 +189,8 @@ const List<IconInfo> octicons = [
       name: "comment-discussion-24",
       icon: OctIcons.comment_discussion_24,
       size: 24),
+  IconInfo(
+      name: "comment-locked-16", icon: OctIcons.comment_locked_16, size: 16),
   IconInfo(name: "compose-16", icon: OctIcons.compose_16, size: 16),
   IconInfo(name: "compose-24", icon: OctIcons.compose_24, size: 24),
   IconInfo(name: "container-16", icon: OctIcons.container_16, size: 16),
@@ -466,6 +469,10 @@ const List<IconInfo> octicons = [
       name: "git-pull-request-draft-24",
       icon: OctIcons.git_pull_request_draft_24,
       size: 24),
+  IconInfo(
+      name: "git-pull-request-locked-16",
+      icon: OctIcons.git_pull_request_locked_16,
+      size: 16),
   IconInfo(name: "globe-16", icon: OctIcons.globe_16, size: 16),
   IconInfo(name: "globe-24", icon: OctIcons.globe_24, size: 24),
   IconInfo(name: "goal-16", icon: OctIcons.goal_16, size: 16),
@@ -528,6 +535,7 @@ const List<IconInfo> octicons = [
   IconInfo(name: "issue-closed-24", icon: OctIcons.issue_closed_24, size: 24),
   IconInfo(name: "issue-draft-16", icon: OctIcons.issue_draft_16, size: 16),
   IconInfo(name: "issue-draft-24", icon: OctIcons.issue_draft_24, size: 24),
+  IconInfo(name: "issue-locked-16", icon: OctIcons.issue_locked_16, size: 16),
   IconInfo(name: "issue-opened-16", icon: OctIcons.issue_opened_16, size: 16),
   IconInfo(name: "issue-opened-24", icon: OctIcons.issue_opened_24, size: 24),
   IconInfo(
