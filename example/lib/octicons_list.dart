@@ -586,6 +586,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "location-24", icon: OctIcons.location_24, size: 24),
   IconInfo(name: "lock-16", icon: OctIcons.lock_16, size: 16),
   IconInfo(name: "lock-24", icon: OctIcons.lock_24, size: 24),
+  IconInfo(name: "lockup-github-16", icon: OctIcons.lockup_github_16, size: 16),
+  IconInfo(name: "lockup-github-24", icon: OctIcons.lockup_github_24, size: 24),
   IconInfo(name: "log-16", icon: OctIcons.log_16, size: 16),
   IconInfo(name: "log-24", icon: OctIcons.log_24, size: 24),
   IconInfo(name: "logo-gist-16", icon: OctIcons.logo_gist_16, size: 16),
