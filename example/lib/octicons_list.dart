@@ -747,6 +747,14 @@ const List<IconInfo> octicons = [
   IconInfo(name: "repo-deleted-16", icon: OctIcons.repo_deleted_16, size: 16),
   IconInfo(name: "repo-forked-16", icon: OctIcons.repo_forked_16, size: 16),
   IconInfo(name: "repo-forked-24", icon: OctIcons.repo_forked_24, size: 24),
+  IconInfo(
+      name: "repo-forked-locked-16",
+      icon: OctIcons.repo_forked_locked_16,
+      size: 16),
+  IconInfo(
+      name: "repo-forked-locked-24",
+      icon: OctIcons.repo_forked_locked_24,
+      size: 24),
   IconInfo(name: "repo-locked-16", icon: OctIcons.repo_locked_16, size: 16),
   IconInfo(name: "repo-locked-24", icon: OctIcons.repo_locked_24, size: 24),
   IconInfo(name: "repo-pull-16", icon: OctIcons.repo_pull_16, size: 16),
