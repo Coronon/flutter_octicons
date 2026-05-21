@@ -409,6 +409,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "filter-remove-24", icon: OctIcons.filter_remove_24, size: 24),
   IconInfo(name: "fiscal-host-16", icon: OctIcons.fiscal_host_16, size: 16),
   IconInfo(name: "fiscal-host-24", icon: OctIcons.fiscal_host_24, size: 24),
+  IconInfo(name: "flag-16", icon: OctIcons.flag_16, size: 16),
+  IconInfo(name: "flag-24", icon: OctIcons.flag_24, size: 24),
   IconInfo(name: "flame-16", icon: OctIcons.flame_16, size: 16),
   IconInfo(name: "flame-24", icon: OctIcons.flame_24, size: 24),
   IconInfo(name: "flowchart-16", icon: OctIcons.flowchart_16, size: 16),
