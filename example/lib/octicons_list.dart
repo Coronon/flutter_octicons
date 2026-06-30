@@ -499,6 +499,14 @@ const List<IconInfo> octicons = [
       name: "graph-bar-vertical-24",
       icon: OctIcons.graph_bar_vertical_24,
       size: 24),
+  IconInfo(
+      name: "graph-stacked-area-16",
+      icon: OctIcons.graph_stacked_area_16,
+      size: 16),
+  IconInfo(
+      name: "graph-stacked-area-24",
+      icon: OctIcons.graph_stacked_area_24,
+      size: 24),
   IconInfo(name: "hash-16", icon: OctIcons.hash_16, size: 16),
   IconInfo(name: "hash-24", icon: OctIcons.hash_24, size: 24),
   IconInfo(name: "heading-16", icon: OctIcons.heading_16, size: 16),
@@ -711,6 +719,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "plus-circle-24", icon: OctIcons.plus_circle_24, size: 24),
   IconInfo(name: "project-16", icon: OctIcons.project_16, size: 16),
   IconInfo(name: "project-24", icon: OctIcons.project_24, size: 24),
+  IconInfo(name: "project-check-16", icon: OctIcons.project_check_16, size: 16),
+  IconInfo(name: "project-check-24", icon: OctIcons.project_check_24, size: 24),
   IconInfo(
       name: "project-roadmap-16", icon: OctIcons.project_roadmap_16, size: 16),
   IconInfo(
@@ -973,6 +983,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "versions-24", icon: OctIcons.versions_24, size: 24),
   IconInfo(name: "video-16", icon: OctIcons.video_16, size: 16),
   IconInfo(name: "video-24", icon: OctIcons.video_24, size: 24),
+  IconInfo(name: "view-files-16", icon: OctIcons.view_files_16, size: 16),
+  IconInfo(name: "view-files-24", icon: OctIcons.view_files_24, size: 24),
   IconInfo(name: "vscode-16", icon: OctIcons.vscode_16, size: 16),
   IconInfo(name: "vscode-24", icon: OctIcons.vscode_24, size: 24),
   IconInfo(name: "webhook-16", icon: OctIcons.webhook_16, size: 16),
