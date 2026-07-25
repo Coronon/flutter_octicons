@@ -741,6 +741,10 @@ const List<IconInfo> octicons = [
   IconInfo(name: "pulse-24", icon: OctIcons.pulse_24, size: 24),
   IconInfo(name: "question-16", icon: OctIcons.question_16, size: 16),
   IconInfo(name: "question-24", icon: OctIcons.question_24, size: 24),
+  IconInfo(
+      name: "question-bubble-16", icon: OctIcons.question_bubble_16, size: 16),
+  IconInfo(
+      name: "question-bubble-24", icon: OctIcons.question_bubble_24, size: 24),
   IconInfo(name: "quote-16", icon: OctIcons.quote_16, size: 16),
   IconInfo(name: "quote-24", icon: OctIcons.quote_24, size: 24),
   IconInfo(name: "read-16", icon: OctIcons.read_16, size: 16),
