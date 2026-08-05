@@ -549,6 +549,14 @@ const List<IconInfo> octicons = [
   IconInfo(name: "issue-opened-16", icon: OctIcons.issue_opened_16, size: 16),
   IconInfo(name: "issue-opened-24", icon: OctIcons.issue_opened_24, size: 24),
   IconInfo(
+      name: "issue-relates-to-16",
+      icon: OctIcons.issue_relates_to_16,
+      size: 16),
+  IconInfo(
+      name: "issue-relates-to-24",
+      icon: OctIcons.issue_relates_to_24,
+      size: 24),
+  IconInfo(
       name: "issue-reopened-16", icon: OctIcons.issue_reopened_16, size: 16),
   IconInfo(
       name: "issue-reopened-24", icon: OctIcons.issue_reopened_24, size: 24),
