@@ -105,6 +105,7 @@ const List<IconInfo> octicons = [
   IconInfo(name: "calendar-24", icon: OctIcons.calendar_24, size: 24),
   IconInfo(name: "chat-16", icon: OctIcons.chat_16, size: 16),
   IconInfo(name: "chat-24", icon: OctIcons.chat_24, size: 24),
+  IconInfo(name: "chat-locked-16", icon: OctIcons.chat_locked_16, size: 16),
   IconInfo(name: "chat-question-16", icon: OctIcons.chat_question_16, size: 16),
   IconInfo(name: "chat-question-24", icon: OctIcons.chat_question_24, size: 24),
   IconInfo(name: "check-16", icon: OctIcons.check_16, size: 16),
