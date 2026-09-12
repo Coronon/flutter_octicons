@@ -72,9 +72,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "book-locked-16", icon: OctIcons.book_locked_16, size: 16),
   IconInfo(name: "bookmark-16", icon: OctIcons.bookmark_16, size: 16),
   IconInfo(name: "bookmark-24", icon: OctIcons.bookmark_24, size: 24),
+  IconInfo(name: "bookmark-fill-16", icon: OctIcons.bookmark_fill_16, size: 16),
   IconInfo(name: "bookmark-fill-24", icon: OctIcons.bookmark_fill_24, size: 24),
-  IconInfo(
-      name: "bookmark-filled-16", icon: OctIcons.bookmark_filled_16, size: 16),
   IconInfo(
       name: "bookmark-slash-16", icon: OctIcons.bookmark_slash_16, size: 16),
   IconInfo(
@@ -105,6 +104,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "calendar-24", icon: OctIcons.calendar_24, size: 24),
   IconInfo(name: "chat-16", icon: OctIcons.chat_16, size: 16),
   IconInfo(name: "chat-24", icon: OctIcons.chat_24, size: 24),
+  IconInfo(name: "chat-add-16", icon: OctIcons.chat_add_16, size: 16),
+  IconInfo(name: "chat-add-24", icon: OctIcons.chat_add_24, size: 24),
   IconInfo(name: "chat-locked-16", icon: OctIcons.chat_locked_16, size: 16),
   IconInfo(name: "chat-question-16", icon: OctIcons.chat_question_16, size: 16),
   IconInfo(name: "chat-question-24", icon: OctIcons.chat_question_24, size: 24),
@@ -194,6 +195,8 @@ const List<IconInfo> octicons = [
       name: "comment-discussion-24",
       icon: OctIcons.comment_discussion_24,
       size: 24),
+  IconInfo(name: "comment-fill-16", icon: OctIcons.comment_fill_16, size: 16),
+  IconInfo(name: "comment-fill-24", icon: OctIcons.comment_fill_24, size: 24),
   IconInfo(
       name: "comment-locked-16", icon: OctIcons.comment_locked_16, size: 16),
   IconInfo(name: "compose-16", icon: OctIcons.compose_16, size: 16),
@@ -480,6 +483,10 @@ const List<IconInfo> octicons = [
       name: "git-pull-request-locked-16",
       icon: OctIcons.git_pull_request_locked_16,
       size: 16),
+  IconInfo(
+      name: "git-pull-request-unlisted-16",
+      icon: OctIcons.git_pull_request_unlisted_16,
+      size: 16),
   IconInfo(name: "globe-16", icon: OctIcons.globe_16, size: 16),
   IconInfo(name: "globe-24", icon: OctIcons.globe_24, size: 24),
   IconInfo(name: "goal-16", icon: OctIcons.goal_16, size: 16),
@@ -724,8 +731,6 @@ const List<IconInfo> octicons = [
   IconInfo(name: "pin-slash-24", icon: OctIcons.pin_slash_24, size: 24),
   IconInfo(name: "pivot-column-16", icon: OctIcons.pivot_column_16, size: 16),
   IconInfo(name: "pivot-column-24", icon: OctIcons.pivot_column_24, size: 24),
-  IconInfo(name: "play-16", icon: OctIcons.play_16, size: 16),
-  IconInfo(name: "play-24", icon: OctIcons.play_24, size: 24),
   IconInfo(name: "plug-16", icon: OctIcons.plug_16, size: 16),
   IconInfo(name: "plug-24", icon: OctIcons.plug_24, size: 24),
   IconInfo(name: "plus-16", icon: OctIcons.plus_16, size: 16),
@@ -774,8 +779,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "repo-24", icon: OctIcons.repo_24, size: 24),
   IconInfo(name: "repo-clone-16", icon: OctIcons.repo_clone_16, size: 16),
   IconInfo(name: "repo-clone-24", icon: OctIcons.repo_clone_24, size: 24),
+  IconInfo(name: "repo-delete-16", icon: OctIcons.repo_delete_16, size: 16),
   IconInfo(name: "repo-delete-24", icon: OctIcons.repo_delete_24, size: 24),
-  IconInfo(name: "repo-deleted-16", icon: OctIcons.repo_deleted_16, size: 16),
   IconInfo(name: "repo-forked-16", icon: OctIcons.repo_forked_16, size: 16),
   IconInfo(name: "repo-forked-24", icon: OctIcons.repo_forked_24, size: 24),
   IconInfo(
@@ -938,6 +943,10 @@ const List<IconInfo> octicons = [
       name: "telescope-fill-24", icon: OctIcons.telescope_fill_24, size: 24),
   IconInfo(name: "terminal-16", icon: OctIcons.terminal_16, size: 16),
   IconInfo(name: "terminal-24", icon: OctIcons.terminal_24, size: 24),
+  IconInfo(
+      name: "terminal-locked-16", icon: OctIcons.terminal_locked_16, size: 16),
+  IconInfo(
+      name: "terminal-locked-24", icon: OctIcons.terminal_locked_24, size: 24),
   IconInfo(name: "three-bars-16", icon: OctIcons.three_bars_16, size: 16),
   IconInfo(name: "three-bars-24", icon: OctIcons.three_bars_24, size: 24),
   IconInfo(name: "thumbsdown-16", icon: OctIcons.thumbsdown_16, size: 16),
@@ -964,8 +973,16 @@ const List<IconInfo> octicons = [
       size: 24),
   IconInfo(name: "trash-16", icon: OctIcons.trash_16, size: 16),
   IconInfo(name: "trash-24", icon: OctIcons.trash_24, size: 24),
+  IconInfo(name: "triangle-16", icon: OctIcons.triangle_16, size: 16),
+  IconInfo(name: "triangle-24", icon: OctIcons.triangle_24, size: 24),
+  IconInfo(
+      name: "triangle-circle-16", icon: OctIcons.triangle_circle_16, size: 16),
+  IconInfo(
+      name: "triangle-circle-24", icon: OctIcons.triangle_circle_24, size: 24),
   IconInfo(name: "triangle-down-16", icon: OctIcons.triangle_down_16, size: 16),
   IconInfo(name: "triangle-down-24", icon: OctIcons.triangle_down_24, size: 24),
+  IconInfo(name: "triangle-fill-16", icon: OctIcons.triangle_fill_16, size: 16),
+  IconInfo(name: "triangle-fill-24", icon: OctIcons.triangle_fill_24, size: 24),
   IconInfo(name: "triangle-left-16", icon: OctIcons.triangle_left_16, size: 16),
   IconInfo(name: "triangle-left-24", icon: OctIcons.triangle_left_24, size: 24),
   IconInfo(
