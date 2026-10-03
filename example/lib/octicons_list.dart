@@ -777,6 +777,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "redo-24", icon: OctIcons.redo_24, size: 24),
   IconInfo(name: "rel-file-path-16", icon: OctIcons.rel_file_path_16, size: 16),
   IconInfo(name: "rel-file-path-24", icon: OctIcons.rel_file_path_24, size: 24),
+  IconInfo(name: "release-16", icon: OctIcons.release_16, size: 16),
+  IconInfo(name: "release-24", icon: OctIcons.release_24, size: 24),
   IconInfo(name: "reply-16", icon: OctIcons.reply_16, size: 16),
   IconInfo(name: "reply-24", icon: OctIcons.reply_24, size: 24),
   IconInfo(name: "repo-16", icon: OctIcons.repo_16, size: 16),
