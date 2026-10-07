@@ -1029,6 +1029,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "view-files-24", icon: OctIcons.view_files_24, size: 24),
   IconInfo(name: "vscode-16", icon: OctIcons.vscode_16, size: 16),
   IconInfo(name: "vscode-24", icon: OctIcons.vscode_24, size: 24),
+  IconInfo(name: "wall-16", icon: OctIcons.wall_16, size: 16),
+  IconInfo(name: "wall-24", icon: OctIcons.wall_24, size: 24),
   IconInfo(name: "webhook-16", icon: OctIcons.webhook_16, size: 16),
   IconInfo(name: "workflow-16", icon: OctIcons.workflow_16, size: 16),
   IconInfo(name: "workflow-24", icon: OctIcons.workflow_24, size: 24),
