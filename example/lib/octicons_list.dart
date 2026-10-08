@@ -917,6 +917,7 @@ const List<IconInfo> octicons = [
   IconInfo(name: "stack-add-16", icon: OctIcons.stack_add_16, size: 16),
   IconInfo(name: "stack-check-16", icon: OctIcons.stack_check_16, size: 16),
   IconInfo(name: "stack-remove-16", icon: OctIcons.stack_remove_16, size: 16),
+  IconInfo(name: "stack-slash-16", icon: OctIcons.stack_slash_16, size: 16),
   IconInfo(name: "star-16", icon: OctIcons.star_16, size: 16),
   IconInfo(name: "star-24", icon: OctIcons.star_24, size: 24),
   IconInfo(name: "star-fill-16", icon: OctIcons.star_fill_16, size: 16),
