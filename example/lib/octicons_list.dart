@@ -157,6 +157,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "cloud-offline-24", icon: OctIcons.cloud_offline_24, size: 24),
   IconInfo(name: "code-16", icon: OctIcons.code_16, size: 16),
   IconInfo(name: "code-24", icon: OctIcons.code_24, size: 24),
+  IconInfo(name: "code-badge-16", icon: OctIcons.code_badge_16, size: 16),
+  IconInfo(name: "code-badge-24", icon: OctIcons.code_badge_24, size: 24),
   IconInfo(
       name: "code-of-conduct-16", icon: OctIcons.code_of_conduct_16, size: 16),
   IconInfo(
@@ -226,6 +228,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "cursor-24", icon: OctIcons.cursor_24, size: 24),
   IconInfo(name: "dash-16", icon: OctIcons.dash_16, size: 16),
   IconInfo(name: "dash-24", icon: OctIcons.dash_24, size: 24),
+  IconInfo(name: "dashboard-16", icon: OctIcons.dashboard_16, size: 16),
+  IconInfo(name: "dashboard-24", icon: OctIcons.dashboard_24, size: 24),
   IconInfo(name: "database-16", icon: OctIcons.database_16, size: 16),
   IconInfo(name: "database-24", icon: OctIcons.database_24, size: 24),
   IconInfo(name: "dependabot-16", icon: OctIcons.dependabot_16, size: 16),
