@@ -111,6 +111,7 @@ const List<IconInfo> octicons = [
   IconInfo(name: "chat-question-24", icon: OctIcons.chat_question_24, size: 24),
   IconInfo(name: "check-16", icon: OctIcons.check_16, size: 16),
   IconInfo(name: "check-24", icon: OctIcons.check_24, size: 24),
+  IconInfo(name: "check-agent-16", icon: OctIcons.check_agent_16, size: 16),
   IconInfo(name: "check-circle-16", icon: OctIcons.check_circle_16, size: 16),
   IconInfo(name: "check-circle-24", icon: OctIcons.check_circle_24, size: 24),
   IconInfo(
@@ -451,12 +452,20 @@ const List<IconInfo> octicons = [
       name: "git-branch-check-24",
       icon: OctIcons.git_branch_check_24,
       size: 24),
+  IconInfo(
+      name: "git-closed-agent-16",
+      icon: OctIcons.git_closed_agent_16,
+      size: 16),
   IconInfo(name: "git-commit-16", icon: OctIcons.git_commit_16, size: 16),
   IconInfo(name: "git-commit-24", icon: OctIcons.git_commit_24, size: 24),
   IconInfo(name: "git-compare-16", icon: OctIcons.git_compare_16, size: 16),
   IconInfo(name: "git-compare-24", icon: OctIcons.git_compare_24, size: 24),
+  IconInfo(
+      name: "git-draft-agent-16", icon: OctIcons.git_draft_agent_16, size: 16),
   IconInfo(name: "git-merge-16", icon: OctIcons.git_merge_16, size: 16),
   IconInfo(name: "git-merge-24", icon: OctIcons.git_merge_24, size: 24),
+  IconInfo(
+      name: "git-merge-agent-16", icon: OctIcons.git_merge_agent_16, size: 16),
   IconInfo(
       name: "git-merge-queue-16", icon: OctIcons.git_merge_queue_16, size: 16),
   IconInfo(
@@ -469,6 +478,10 @@ const List<IconInfo> octicons = [
       name: "git-pull-request-24",
       icon: OctIcons.git_pull_request_24,
       size: 24),
+  IconInfo(
+      name: "git-pull-request-agent-16",
+      icon: OctIcons.git_pull_request_agent_16,
+      size: 16),
   IconInfo(
       name: "git-pull-request-closed-16",
       icon: OctIcons.git_pull_request_closed_16,
@@ -492,6 +505,10 @@ const List<IconInfo> octicons = [
   IconInfo(
       name: "git-pull-request-unlisted-16",
       icon: OctIcons.git_pull_request_unlisted_16,
+      size: 16),
+  IconInfo(
+      name: "git-que-merge-agent-16",
+      icon: OctIcons.git_que_merge_agent_16,
       size: 16),
   IconInfo(name: "globe-16", icon: OctIcons.globe_16, size: 16),
   IconInfo(name: "globe-24", icon: OctIcons.globe_24, size: 24),
