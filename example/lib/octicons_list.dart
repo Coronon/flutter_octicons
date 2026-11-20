@@ -752,6 +752,8 @@ const List<IconInfo> octicons = [
   IconInfo(name: "person-fill-24", icon: OctIcons.person_fill_24, size: 24),
   IconInfo(name: "pin-16", icon: OctIcons.pin_16, size: 16),
   IconInfo(name: "pin-24", icon: OctIcons.pin_24, size: 24),
+  IconInfo(name: "pin-fill-16", icon: OctIcons.pin_fill_16, size: 16),
+  IconInfo(name: "pin-fill-24", icon: OctIcons.pin_fill_24, size: 24),
   IconInfo(name: "pin-slash-16", icon: OctIcons.pin_slash_16, size: 16),
   IconInfo(name: "pin-slash-24", icon: OctIcons.pin_slash_24, size: 24),
   IconInfo(name: "pivot-column-16", icon: OctIcons.pivot_column_16, size: 16),
